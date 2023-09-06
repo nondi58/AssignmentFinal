@@ -168,28 +168,30 @@ nav li a {
 
 .funny-video {
     /* padding: 80px; */
-    /* padding: 80px 100px; */
-    padding: 30px 30px 30px 150px;
+    padding: 120px 200px;
+    /* padding: 30px 30px 30px 150px; */
     margin: 100px;
-    display: flex;
-    
-    gap: 5px;
-   
+    display: flex;   
+    gap: 10px;  
     justify-content: space-around;
 
 
 }
 
 .funny-image {
-    border-radius: 16px;
+    border-radius: 2px;
 
 }
 .fun-image:hover {
-    background-color: yellow;
-    border-radius: 5px;
-    color: black;
+   
+    
     cursor: pointer;
     background-image: url("https://fontawesome.com/icons/play?f=classic&s=solid");
+    display: inline-flex;
+    border: 2px solid  #F948B2 ;
+    padding: 5px 5px;
+    align-items: flex-start;
+    background-color: #534C64;
    
   }
 
